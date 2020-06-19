@@ -19,7 +19,7 @@
     <div class="header-logo-wrapper pt-5 pl-5">
         <div class="header-container w-full">
             <div class="max-w-xs">
-                <span class="bralo-group-heading block text-center">BRALO GROUP</span>
+                <span class="bralo-group-heading block text-right">BRALO GROUP</span>
             </div>
         </div>
 
