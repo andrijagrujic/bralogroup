@@ -25,10 +25,12 @@
     height: 1.4px;
     display: block;
     width: 100%;
+    position: relative;
+    right: 6px;
 }
 
 .content-wrapper .text-copyright-wrapper {
-    background: radial-gradient(ellipse at center, rgba(247,247,247,1) 40%,rgba(219,219,219,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(247,247,247,1) 50%,rgba(219,219,219,1) 100%);
     color: #655d5d;
 }
 
