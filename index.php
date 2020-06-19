@@ -19,11 +19,11 @@
     <div class="header-logo-wrapper pt-5 pl-5">
         <div class="header-container w-full">
             <div class="max-w-xs">
-                <span class="bralo-group-heading block text-right">BRALO GROUP</span>
+                <span class="bralo-group-heading block text-center">BRALO GROUP</span>
             </div>
         </div>
 
-        <img class="object-contain mx-auto w-1/4"
+        <img class="object-contain mx-auto w-1/3"
              src="images/logo_no_name.jpg"
              alt="Bralo Group">
     </div>
@@ -44,11 +44,16 @@
 <footer>
     <ul class="flex m-2">
         <li class="w-1/6 text-center">Kalischer Straße 24</li>
-        <li class="w-1/6 text-center list-disc">10713 Berlin</li>
-        <li class="w-1/6 text-center list-disc">Deutschland</li>
-        <li class="w-1/6 text-center list-disc">Tel - 030 / 810 95 800</li>
-        <li class="w-1/6 text-center list-disc">Fax - 030 / 810 95 801</li>
-        <li class="w-1/6 text-center list-disc"><a href="mailto:info@example.com">info@bralo.group</a></li>
+        <li class="list-disc ml-12"></li>
+        <li class="w-1/6 text-center ">10713 Berlin</li>
+        <li class="list-disc ml-3"></li>
+        <li class="w-1/6 text-center ">Deutschland</li>
+        <li class="list-disc"></li>
+        <li class="w-1/6 text-center ">Tel - 030 / 810 95 800</li>
+        <li class="list-disc ml-4"></li>
+        <li class="w-1/6 text-center ">Fax - 030 / 810 95 801</li>
+        <li class="list-disc ml-8"></li>
+        <li class="w-1/6 text-center "><a href="mailto:info@example.com">info@bralo.group</a></li>
     </ul>
 </footer>
 
