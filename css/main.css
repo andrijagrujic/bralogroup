@@ -1,10 +1,15 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/roboto/Roboto-Regular.ttf);
+}
+
 #font {
     font-family: "Above Demo Regular", Roboto;
     background-color: rgba(229, 229, 229, 0.89);
 }
 
 .content-wrapper .header-logo-wrapper {
-    background: linear-gradient(to right, rgba(209,209,209,1) 2%,rgba(209,209,209,1) 2%,rgba(226,226,226,1) 13%,rgba(226,226,226,1) 13%,rgba(226,226,226,1) 13%,rgba(226,226,226,1) 13%,rgba(254,254,254,1) 36%,rgba(254,254,254,1) 66%,rgba(219,219,219,1) 91%,rgba(219,219,219,1) 100%);
+    background: linear-gradient(to right, rgba(209,209,209,1) 2%, rgba(226,226,226,1) 13%, rgba(254,254,254,1) 36%, rgba(254,254,254,1) 66%, rgba(219,219,219,1) 91%, rgba(219,219,219,1) 100%);
     /*padding-top: 20px;*/
     /*padding-left: 20px;*/
 }
@@ -29,13 +34,14 @@
 
 .content-wrapper .header-container .bralo-group-heading:after {
     content: ' ';
-    background: linear-gradient(to right, rgba(206,220,231,1) -4%,rgba(89,106,114,1) 25%,rgba(89,106,114,1) 73%,rgba(206,220,231,1) 100%);
+    background: linear-gradient(to right, rgba(219,219,219,1) 0%, rgba(89,106,114,1) 25%, rgba(89,106,114,1) 75%, rgba(219,219,219,1) 100%);
     height: 1.4px;
     display: block;
+    width: 100%;
 }
 
 .content-wrapper .text-copyright-wrapper {
-    background: radial-gradient(ellipse at center, rgba(247,247,247,1) 50%,rgba(209,209,209,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(247,247,247,1) 0%,rgba(219,219,219,1) 80%);
     color: #655d5d;
 }
 
