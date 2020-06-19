@@ -23,7 +23,7 @@
             </div>
         </div>
 
-        <img class="object-contain mx-auto w-1/3"
+        <img class="object-contain mx-auto w-1/4"
              src="images/logo_no_name.jpg"
              alt="Bralo Group">
     </div>
