@@ -12,7 +12,7 @@
 </head>
 
 <body class="container-fluid">
-<div class="content-wrapper">
+<div class="content-wrapper overflow-hidden">
     <div class="header-logo-wrapper pt-5 pl-5">
         <div class="header-container w-full">
             <div class="max-w-xs">
@@ -20,7 +20,7 @@
             </div>
         </div>
 
-        <img class="object-contain mx-auto w-1/4"
+        <img class="object-contain mx-auto w-1/4 bralo-group-logo"
              src="images/logo_transparent.png"
              alt="Bralo Group">
     </div>

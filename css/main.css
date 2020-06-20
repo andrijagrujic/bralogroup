@@ -19,6 +19,11 @@ body {
 
 .content-wrapper .header-logo-wrapper {
     background: linear-gradient(to right, rgba(219,219,219,1) 0%, rgba(226,226,226,1) 20%, rgba(254,254,254,1) 40%, rgba(254,254,254,1) 60%, rgba(226,226,226,1) 80%, rgba(219,219,219,1) 100%);
+    height: 567px;
+}
+
+.content-wrapper .header-logo-wrapper .bralo-group-logo {
+    min-width: 639px;
 }
 
 .content-wrapper .header-container .bralo-group-heading {
@@ -56,7 +61,7 @@ body {
 .whiteboxes-wrapper {
     background: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(112,130,140,1) 15%,rgba(89,105,112,1) 30%,rgba(89,105,112,1) 70%,rgba(112,130,140,1) 85%,rgba(229,229,229,1) 100%);
     flex-wrap: wrap;
-    height: 24rem; /* pregazio sam velicinu iz h-64 klase, mnogo mi kocke bile male nesto a u docs za tailwind nema nista vece od h-64 */
+    height: 35rem; /* pregazio sam velicinu iz h-64 klase, mnogo mi kocke bile male nesto a u docs za tailwind nema nista vece od h-64 */
 }
 
 .whiteboxes-wrapper .whitebox {
