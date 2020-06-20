@@ -24,7 +24,7 @@
         </div>
 
         <img class="object-contain mx-auto w-1/4"
-             src="images/logo_no_name.jpg"
+             src="images/logo_transparent.png"
              alt="Bralo Group">
     </div>
     <div class="text-copyright-wrapper">
