@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/roboto/Roboto-Regular.ttf">
+    <link rel="stylesheet" href="fonts/above/AboveDemoRegular.ttf">
 
     <title>Bralo Group</title>
 </head>
@@ -26,8 +28,7 @@
     </div>
     <div class="text-copyright-wrapper">
         <div class="heading-wrapper">
-            <h1 id="fontAbove" class="real-estate-text text-center text-4xl py-4">REAL ESTATE SINCE </h1>
-            <h2 class="text-4xl py-4">1996</h2>
+            <h1 id="fontAbove" class="real-estate-text text-center text-4xl py-4">REAL ESTATE SINCE<span class="text-4xl py-4 font-hairline"> 1996</span></h1>
         </div>
         <p class="ml-8 pb-4">Copyright © Bralo group 1996 - 2020</p>
     </div>

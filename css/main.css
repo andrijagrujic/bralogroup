@@ -1,12 +1,12 @@
-@font-face {
-    font-family: Roboto;
-    src: url(../fonts/roboto/Roboto-Regular.ttf);
-}
+/*@font-face {*/
+/*    font-family: Roboto;*/
+/*    src: url(../fonts/roboto/Roboto-Regular.ttf);*/
+/*}*/
 
-@font-face {
-    font-family: "Above Demo Regular";
-    src: url(../fonts/above/AboveDemoRegular.ttf);
-}
+/*@font-face {*/
+/*    font-family: "Above Demo Regular";*/
+/*    src: url(../fonts/above/AboveDemoRegular.ttf);*/
+/*}*/
 
 #fontAbove {
     font-family: "Above Demo Regular";
@@ -52,12 +52,7 @@ body {
     margin: auto;
 }
 
-.content-wrapper .text-copyright-wrapper .heading-wrapper h1 {
-    display: inline-block;
-}
-
-.content-wrapper .text-copyright-wrapper .heading-wrapper h2 {
-    display: inline-block;
+.content-wrapper .text-copyright-wrapper .heading-wrapper span {
     font-family: "Roboto";
     transform: scale(.8, 1);
 }
