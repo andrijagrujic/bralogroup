@@ -14,7 +14,7 @@
 <body class="container-fluid">
 <div class="content-wrapper overflow-hidden">
     <div class="header-logo-wrapper pt-5 pl-5">
-        <div class="header-container w-full absolute font-roboto-light">
+        <div class="header-container w-4/5 absolute font-roboto-light">
             <div class="max-w-xs">
                 <span class="bralo-group-heading block text-center">BRALO GROUP</span>
             </div>
