@@ -14,7 +14,7 @@
 <body class="container-fluid">
 <div class="content-wrapper overflow-hidden">
     <div class="header-logo-wrapper pt-5 pl-5">
-        <div class="header-container w-full">
+        <div class="header-container w-full absolute">
             <div class="max-w-xs">
                 <span class="bralo-group-heading block text-center">BRALO GROUP</span>
             </div>
@@ -25,7 +25,10 @@
              alt="Bralo Group">
     </div>
     <div class="text-copyright-wrapper">
-        <h1 class="real-estate-text text-center text-4xl py-4">REAL ESTATE SINCE 1996</h1>
+        <div class="heading-wrapper">
+            <h1 id="fontAbove" class="real-estate-text text-center text-4xl py-4">REAL ESTATE SINCE </h1>
+            <h2 class="text-4xl py-4">1996</h2>
+        </div>
         <p class="ml-8 pb-4">Copyright © Bralo group 1996 - 2020</p>
     </div>
 </div>
