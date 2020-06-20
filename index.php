@@ -11,7 +11,7 @@
     <title>Bralo Group</title>
 </head>
 
-<body id="font" class="container-fluid">
+<body class="container-fluid">
 <div class="content-wrapper">
     <div class="header-logo-wrapper pt-5 pl-5">
         <div class="header-container w-full">
