@@ -1,12 +1,21 @@
-/*@font-face {*/
-/*    font-family: Roboto;*/
-/*    src: url(../fonts/roboto/Roboto-Regular.ttf);*/
-/*}*/
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/roboto/Roboto-Regular.ttf);
+}
 
-/*@font-face {*/
-/*    font-family: "Above Demo Regular";*/
-/*    src: url(../fonts/above/AboveDemoRegular.ttf);*/
-/*}*/
+@font-face {
+    font-family: Roboto-Light;
+    src: url(../fonts/roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: "Above Demo Regular";
+    src: url(../fonts/above/AboveDemoRegular.ttf);
+}
+
+.font-roboto-light {
+    font-family: Roboto-Light;
+}
 
 #fontAbove {
     font-family: "Above Demo Regular";
@@ -53,8 +62,12 @@ body {
 }
 
 .content-wrapper .text-copyright-wrapper .heading-wrapper span {
-    font-family: "Roboto";
     transform: scale(.8, 1);
+}
+
+.content-wrapper .text-copyright-wrapper p {
+    color: #000000;
+    font-size: 15px;
 }
 
 .content-wrapper .text-copyright-wrapper .real-estate-text {
@@ -86,4 +99,8 @@ body {
     height: 1px;
     display: block;
     width: 100%;
+}
+
+.footer-list {
+    color: #3b3b3b;
 }

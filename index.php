@@ -7,8 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-    <link rel="stylesheet" href="fonts/roboto/Roboto-Regular.ttf">
-    <link rel="stylesheet" href="fonts/above/AboveDemoRegular.ttf">
 
     <title>Bralo Group</title>
 </head>
@@ -16,7 +14,7 @@
 <body class="container-fluid">
 <div class="content-wrapper overflow-hidden">
     <div class="header-logo-wrapper pt-5 pl-5">
-        <div class="header-container w-full absolute">
+        <div class="header-container w-full absolute font-roboto-light">
             <div class="max-w-xs">
                 <span class="bralo-group-heading block text-center">BRALO GROUP</span>
             </div>
@@ -28,9 +26,9 @@
     </div>
     <div class="text-copyright-wrapper">
         <div class="heading-wrapper">
-            <h1 id="fontAbove" class="real-estate-text text-center text-4xl py-4">REAL ESTATE SINCE<span class="text-4xl py-4 font-hairline"> 1996</span></h1>
+            <h1 id="fontAbove" class="real-estate-text text-center text-4xl py-4">REAL ESTATE SINCE<span class="text-4xl py-4 font-roboto-light"> 1996</span></h1>
         </div>
-        <p class="ml-8 pb-4">Copyright © Bralo group 1996 - 2020</p>
+        <p class="ml-8 pb-4 font-roboto-light">Copyright © Bralo group 1996 - 2020</p>
     </div>
 </div>
 
@@ -43,7 +41,7 @@
 </div>
 
 <footer>
-    <ul class="flex m-2">
+    <ul class="flex m-2 font-roboto-light footer-list">
         <li class="w-1/6 text-center">Kalischer Straße 24</li>
         <li class="list-disc ml-12"></li>
         <li class="w-1/6 text-center ">10713 Berlin</li>
