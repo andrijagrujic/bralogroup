@@ -7,9 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-    <!--        <link href="fonts/roboto/Roboto-Regular.ttf" rel="stylesheet">-->
-    <!--        <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">-->
-    <!--        <link href="https://fonts.googleapis.com/css2?family=Syncopate&display=swap" rel="stylesheet">-->
 
     <title>Bralo Group</title>
 </head>
@@ -33,11 +30,11 @@
     </div>
 </div>
 
-<div class="flex mb-2 border-top border-black h-64">
-    <div class="w-1/5 bg-gray-100 text-center border-r-2"></div>
-    <div class="w-1/5 bg-gray-100 text-center border-r-2"></div>
-    <div class="w-1/5 bg-gray-100 text-center border-r-2"></div>
-    <div class="w-1/5 bg-gray-100 text-center border-r-2"></div>
+<div class="flex mb-2 border-top border-black h-64 whiteboxes-wrapper">
+    <div class="w-1/5 bg-gray-100 text-center whitebox"></div>
+    <div class="w-1/5 bg-gray-100 text-center whitebox"></div>
+    <div class="w-1/5 bg-gray-100 text-center whitebox"></div>
+    <div class="w-1/5 bg-gray-100 text-center whitebox"></div>
     <div class="w-1/5 bg-gray-100 text-center"></div>
 </div>
 
