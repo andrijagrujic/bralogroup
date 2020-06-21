@@ -44,7 +44,7 @@ body {
 .content-wrapper .header-container .bralo-group-heading:after {
     content: ' ';
     background: linear-gradient(to right, rgba(219,219,219,1) -2%, rgba(89,106,114,1) 25%, rgba(89,106,114,1) 75%, rgba(219,219,219,1) 100%);
-    height: 1.4px;
+    height: 1px;
     display: block;
     width: 100%;
     position: relative;
@@ -82,9 +82,9 @@ body {
 }
 
 .whiteboxes-wrapper {
-    background: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(112,130,140,1) 15%,rgba(89,105,112,1) 30%,rgba(89,105,112,1) 70%,rgba(112,130,140,1) 85%,rgba(229,229,229,1) 100%);
+    background: linear-gradient(to top, rgb(43, 43, 43) 0%,rgba(112,130,140,1) 15%,rgba(89,105,112,1) 30%,rgba(89,105,112,1) 70%,rgba(112,130,140,1) 85%,rgba(229,229,229,1) 100%);
     flex-wrap: wrap;
-    height: 28rem; /* pregazio sam velicinu iz h-64 klase, mnogo mi kocke bile male nesto a u docs za tailwind nema nista vece od h-64 */
+    height: 28rem;
 }
 
 .whiteboxes-wrapper .whitebox {
