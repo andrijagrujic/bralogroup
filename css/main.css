@@ -28,11 +28,11 @@ body {
 
 .content-wrapper .header-logo-wrapper {
     background: linear-gradient(to right, rgba(219,219,219,1) 0%, rgba(226,226,226,1) 20%, rgba(254,254,254,1) 40%, rgba(254,254,254,1) 60%, rgba(226,226,226,1) 80%, rgba(219,219,219,1) 100%);
-    height: 445px;
+    height: 384px;
 }
 
 .content-wrapper .header-logo-wrapper .bralo-group-logo {
-    min-width: 540px;
+    min-width: 460px;
 }
 
 .content-wrapper .header-container .bralo-group-heading {
@@ -84,7 +84,7 @@ body {
 .whiteboxes-wrapper {
     background: linear-gradient(to top, rgb(43, 43, 43) 0%,rgba(112,130,140,1) 15%,rgba(89,105,112,1) 30%,rgba(89,105,112,1) 70%,rgba(112,130,140,1) 85%,rgba(229,229,229,1) 100%);
     flex-wrap: wrap;
-    height: 28rem;
+    height: calc(100vh - 512px - 40px);
 }
 
 .whiteboxes-wrapper .whitebox {
