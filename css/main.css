@@ -28,11 +28,11 @@ body {
 
 .content-wrapper .header-logo-wrapper {
     background: linear-gradient(to right, rgba(219,219,219,1) 0%, rgba(226,226,226,1) 20%, rgba(254,254,254,1) 40%, rgba(254,254,254,1) 60%, rgba(226,226,226,1) 80%, rgba(219,219,219,1) 100%);
-    height: 365px;
+    height: 386px;
 }
 
 .content-wrapper .header-logo-wrapper .bralo-group-logo {
-    min-width: 460px;
+    min-width: 464px;
 }
 
 .content-wrapper .header-container .bralo-group-heading {
