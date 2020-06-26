@@ -12,7 +12,9 @@
     font-family: "Above Demo Regular";
     src: url(../fonts/above/AboveDemoRegular.ttf);
 }
-
+html {
+    height: 100%;
+}
 .font-roboto-light {
     font-family: Roboto-Light;
 }
@@ -24,19 +26,33 @@
 body {
     font-family: Roboto, "Above Demo Regular";
     background-color: rgba(229, 229, 229, 0.89);
+    height: 100%;
 }
-
+.content-wrapper {
+    height: 50%;
+}
 .content-wrapper .header-logo-wrapper {
     background: linear-gradient(to right, rgba(219,219,219,1) 0%, rgba(226,226,226,1) 20%, rgba(254,254,254,1) 40%, rgba(254,254,254,1) 60%, rgba(226,226,226,1) 80%, rgba(219,219,219,1) 100%);
     /*height: 343px;*/
-    height: 14%;
+    /*height: 14%;*/
     /*-webkit-logical-height: 14%;*/
     /*-webkit-logical-height: 284px;*/
+    height: 77%;
+}
+
+.content-wrapper .header-logo-wrapper .header-container {
+    height: 100%;
+}
+
+.content-wrapper .header-logo-wrapper .header-container .bralo-group-header-container {
+    height: 9%;
 }
 
 .content-wrapper .header-logo-wrapper .bralo-group-logo {
-    width: 14%;
+    /*width: 14%;*/
     /*min-width: 464px;*/
+    height: 91%;
+    width: auto;
 }
 
 .content-wrapper .header-container .bralo-group-heading {
@@ -58,11 +74,13 @@ body {
 .content-wrapper .text-copyright-wrapper {
     background: radial-gradient(ellipse at center, rgba(247,247,247,1) 50%,rgba(219,219,219,1) 100%);
     color: #655d5d;
+    height: 23.4%;
 }
 
 .content-wrapper .text-copyright-wrapper .heading-wrapper {
     width: fit-content;
     margin: -4px auto 0 auto;
+    height: 70%;
 }
 
 .content-wrapper .text-copyright-wrapper .heading-wrapper span {
@@ -88,8 +106,9 @@ body {
 .whiteboxes-wrapper {
     background: linear-gradient(to top, rgb(43, 43, 43) 0%,rgba(112,130,140,1) 15%,rgba(89,105,112,1) 30%,rgba(89,105,112,1) 70%,rgba(112,130,140,1) 85%,rgba(229,229,229,1) 100%);
     flex-wrap: wrap;
-    height: calc(100vh - 488px - 40px);
-    -webkit-logical-height: calc(100vh - 412px - 40px);
+    /*height: calc(100vh - 488px - 40px);*/
+    /*-webkit-logical-height: calc(100vh - 412px - 40px);*/
+    height: 46.5%;
 }
 
 .whiteboxes-wrapper .whitebox {
