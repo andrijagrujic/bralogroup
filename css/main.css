@@ -108,7 +108,7 @@ body {
     flex-wrap: wrap;
     /*height: calc(100vh - 488px - 40px);*/
     /*-webkit-logical-height: calc(100vh - 412px - 40px);*/
-    height: 46.5%;
+    height: 46%;
 }
 
 .whiteboxes-wrapper .whitebox {
