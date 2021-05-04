@@ -6,10 +6,14 @@
     <meta name="keywords" content="Seniorenwohnungen Berlin, Ambulante Pflege Berlin, Pflegeplatz Berlin, Pflegeheim Berlin, Monteurzimmer Berlin, Monteurunterkunft Berlin">
     <meta name="description" content="Immobilien Großprojekte Berlin">
     <title>Bralo group Berlin</title>
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
 
-    <title>Bralo Group</title>
+    <link type="text/css" rel="stylesheet" href="css/lightslider.css" />
+    <link type="text/css" href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link type="text/css" href="css/main.css" rel="stylesheet">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/lightslider.js"></script>
+    <script src="js/main.js"></script>
 </head>
 
 <body class="container-fluid max-h-screen overflow-hidden">
@@ -34,14 +38,17 @@
         </div>
     </div>
 
-    <div class="flex mb-2 border-top border-black whiteboxes-wrapper">
-        <div class="w-1/5 bg-gray-100 text-center whitebox"></div>
-        <div class="w-1/5 bg-gray-100 text-center whitebox"></div>
-        <div class="w-1/5 bg-gray-100 text-center whitebox">
-            <a href="https://oase-des-lebens.com/" target="_blank"><img class="oase" src="images/oase-des-lebens.jpg" alt="Oase des Lebens"></a>
-        </div>
-        <div class="w-1/5 bg-gray-100 text-center whitebox"></div>
-        <div class="w-1/5 bg-gray-100 text-center"></div>
+    <div class="flex mb-2 border-top border-black whiteboxes-wrapper m-auto">
+
+        <ul id="content-slider" class="content-slider">
+            <li><img src="images/baneri/borne-stabe.jpg" alt=""></li>
+            <li><img src="images/baneri/grunauer-stabe.jpg" alt=""></li>
+            <li><img src="images/baneri/Immobilienentwicklung.jpg" alt=""></li>
+            <li><img src="images/baneri/kalischer-stabe.jpg" alt=""></li>
+            <li><img src="images/baneri/life-inside.jpg" alt=""></li>
+            <li><img src="images/baneri/senioren-heimat.jpg" alt=""></li>
+            <li><img src="images/baneri/kalkhorster-stabe.jpg" alt=""></li>
+        </ul>
     </div>
 
     <footer class="h-6">
